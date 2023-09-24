@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Dynamic Link Libraries (DLLs): A Technical Deep Dive"
+show_excerpt: false
 date: 2023-09-23
 header:
   teaser: /assets/images/slae32.png

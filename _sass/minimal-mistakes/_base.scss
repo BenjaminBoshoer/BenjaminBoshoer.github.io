@@ -33,6 +33,24 @@ h6 {
   font-weight: bold;
 }
 
+.page__content h1 .header-link,
+.page__content h2 .header-link,
+.page__content h3 .header-link,
+.page__content h4 .header-link,
+.page__content h5 .header-link,
+.page__content h6 .header-link {
+    display: none;
+}
+
+.page__content h1:hover .header-link,
+.page__content h2:hover .header-link,
+.page__content h3:hover .header-link,
+.page__content h4:hover .header-link,
+.page__content h5:hover .header-link,
+.page__content h6:hover .header-link {
+    display: inline;
+}
+
 h1 {
   margin-top: 0;
   font-size: $type-size-3;
@@ -348,4 +366,10 @@ input[type="submit"],
 .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+}
+
+
+::selection {
+  background: #8e8e8e;
+  color: #ffff;
 }

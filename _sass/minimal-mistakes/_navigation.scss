@@ -396,7 +396,7 @@
     /* selected*/
     input:checked + label {
       color: white;
-      background-color: mix(white, #000, 20%);
+      background-color: mix(white, #000, 60%);
 
       &:before,
       &:after {
